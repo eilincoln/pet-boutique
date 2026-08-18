@@ -161,3 +161,40 @@
   opacity: 1;
   transform: translateY(-5px);
 }
+
+/* ONDE ESTAMOS */
+.onde-estamos {
+  text-align: center;
+  background-color: var(--text-light);
+}
+
+.subtitulo-mapa {
+  font-size: 18px;
+  margin-bottom: 40px;
+  color: var(--text-dark);
+}
+
+.mapa {
+  max-width: 900px;
+  margin: 0px auto;
+  border: 10px solid var(--primary-color);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.mapa iframe {
+  display: block;
+}
+
+/* RODAPE */
+.rodape {
+  background-color: #1d1d1d;
+  padding: 30px;
+  text-align: center;
+}
+
+.text-rodape {
+  color: var(--text-light);
+  font-size: 14px;
+}
