@@ -6,7 +6,7 @@
 }
 
 .container-nome-logo {
-  max-width: 250px;
+  max-width: 300px;
   color: var(--primary-color);
 }
 
@@ -65,4 +65,40 @@
 
 .container-titulo-topo img {
   width: 20px;
+}
+
+/* SEÇÃO SERVIÇOS */
+.secao-servicos {
+  background-color: var(--text-light);
+}
+
+.box-servicos {
+  max-width: 1024px;
+  margin: 0px auto 50px;
+}
+
+.box-servicos ul {
+  list-style: square;
+  padding-left: 20px;
+  color: var(--text-dark);
+}
+
+.box-servicos li {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.box-servicos-img {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.box-servicos-img img {
+  width: 200px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
