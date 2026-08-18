@@ -1,0 +1,68 @@
+/* HERO */
+.banner-topo {
+  background-image: url("../img/banner-topo.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.container-nome-logo {
+  max-width: 250px;
+  color: var(--primary-color);
+}
+
+.container-nome-logo img {
+  width: 30px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+.container-nome-logo .nome-pet-shop {
+  font-size: 35px;
+  margin: 0 0 5px 0;
+  font-weight: bold;
+}
+
+.container-nome-logo .slogan-pet-shop {
+  font-size: 14px;
+  text-align: center;
+  margin: 0;
+}
+
+.container-titulo-topo {
+  max-width: 1024px;
+  border-radius: 10px;
+  padding: 40px;
+  margin: 70px auto 0px;
+  background: #ffffffc4;
+  box-shadow: 0 8px 32px #1f26875e;
+}
+
+.titulo-topo {
+  font-size: 60px;
+  color: var(--primary-color);
+  text-align: center;
+  font-weight: 800;
+  margin: 0 0 40px;
+}
+
+.link-fale-conosco {
+  text-align: center;
+  width: 200px;
+  padding: 10px 25px;
+  font-size: 20px;
+  background-color: var(--primary-color);
+  border-radius: 10px;
+  margin: 0 auto;
+  display: block;
+}
+
+.link-fale-conosco a {
+  color: var(--text-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.container-titulo-topo img {
+  width: 20px;
+}
