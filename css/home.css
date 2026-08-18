@@ -3,6 +3,7 @@
   background-image: url("../img/banner-topo.jpg");
   background-position: center;
   background-size: cover;
+  height: 100vh;
 }
 
 .container-nome-logo {
@@ -101,4 +102,62 @@
   height: auto;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* FAIXAS DE REDES SOCIAIS */
+
+.faixa {
+  background-color: var(--primary-color);
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.text-faixa {
+  color: var(--text-light);
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.redes-sociais {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.redes-sociais img {
+  width: 40px;
+  transition: transform 0.3s;
+}
+
+.redes-sociais img:hover {
+  transform: scale(1.2);
+}
+
+/* SEÇÃO DE MARCAS */
+.principais-marcas {
+  background-color: #f9f9f9;
+}
+
+.container-marcas {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  max-width: 1000px;
+  margin: 0px auto;
+  align-items: center;
+}
+
+.logo-marca {
+  width: 100%;
+  max-width: 150px;
+  margin: 0px auto;
+  filter: grayscale(100%);
+  opacity: 0.7;
+  transition: all 0.4s;
+}
+
+.logo-marca:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+  transform: translateY(-5px);
 }
